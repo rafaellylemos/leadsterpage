@@ -1,5 +1,6 @@
 import { LinksS } from "../stylescomponents/styles"
 
+
 export default function Cases() {
     return (
         <><h1>Cases</h1><div>
