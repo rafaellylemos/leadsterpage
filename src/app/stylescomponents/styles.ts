@@ -61,7 +61,25 @@ export const LinksS = styled.div`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: start;
   font-size: 11px;
+  gap: 10px;
+  margin-top: 20px;
   color: rgba(0, 0, 0, 0.4);
+`;
+
+//Footer-contato
+export const SocialS = styled.div`
+  display: flex;
+  margin: auto;
+  gap: 8px;
+`;
+
+export const CircleS = styled.div`
+  width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `;
