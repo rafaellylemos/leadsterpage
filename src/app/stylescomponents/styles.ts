@@ -29,6 +29,60 @@ export const DivAdversitingS = styled.div`
 //Div-Videos
 //Div-Pags
 //Div-Advertising
+export const RightS = styled.div`
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  background-color: rgba(30,144,255, 0.1);
+  height: 300px;
+  padding-left: 80px;
+  padding-top: 90px;
+  width: 100%;
+`;
+
+export const RightTextS1 = styled.div`
+  background-color: transparent;
+  font-size: 32px;
+`;
+
+export const RightTextS2 = styled.div`
+  background-color: transparent;
+  font-size: 32px;
+  font-weight: bold;
+`;
+
+export const RightTextS3 = styled.div`
+  background-color: transparent;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+  strong {
+    background-color: transparent;
+  }
+`;
+
+export const ComponentContainerS = styled.div`
+  display: flex;
+  background-color: transparent;
+  gap: 10px;
+  margin-top: 10px;
+`;
+
+export const Component1S = styled.div`
+  background-color: transparent;
+`;
+export const Component2S = styled.div`
+  background-color: transparent;
+`;
+export const EndTextS = styled.div`
+  background-color: transparent;
+  font-size: 11px;
+  margin-top: 10px;
+`;
+
+
+
 //Div-Logo
 export const DivLogoS = styled.div`
   display: flex;
