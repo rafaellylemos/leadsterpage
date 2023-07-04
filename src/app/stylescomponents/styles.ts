@@ -28,7 +28,15 @@ export const DivAdversitingS = styled.div`
 //Div-Buttons
 //Div-Videos
 //Div-Pags
-//Div-Advertising
+//Div-Advertising-Left
+export const LeftS = styled.div`
+  display: flex;
+  background-color: transparent;
+  height: 300px;
+  width: 100%;
+`;
+
+//Div-Advertising-Right
 export const RightS = styled.div`
   display: flex;
   flex-direction: column;
@@ -79,6 +87,19 @@ export const EndTextS = styled.div`
   background-color: transparent;
   font-size: 11px;
   margin-top: 10px;
+`;
+export const ButtonS = styled.button`
+  background-color: #097BF4;
+  font-size: 11px;
+  border-radius: 30px;
+  padding: 10px 15px 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #001969;
+  }
 `;
 
 

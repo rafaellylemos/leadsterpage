@@ -1,13 +1,15 @@
 'use client';
 
+import ButtonDemo from './components/buttondemo';
 import Cases from './components/cases';
+import Comparativo from './components/comparativo';
 import Contato from './components/contato';
 import Links from './components/links';
 import LogoBottom from './components/logobottom';
 import LogoTop from './components/logotop';
 import Materiais from './components/materiais';
 import GlobalStyle from './styles/global';
-import { Component1S, Component2S, ComponentContainerS, DivAdversitingS, DivLogoS, EndTextS, FooterS, LogoS, RightS, RightTextS1, RightTextS2, RightTextS3 } from './stylescomponents/styles';
+import { Component1S, Component2S, ComponentContainerS, DivAdversitingS, DivLogoS, EndTextS, FooterS, LeftS, LogoS, RightS, RightTextS1, RightTextS2, RightTextS3 } from './stylescomponents/styles';
 
 export default function Home() {
   return (
@@ -32,7 +34,9 @@ export default function Home() {
         <div>
           <DivAdversitingS>
             <div>
-              DivLeft
+              <LeftS>
+                <Comparativo />
+              </LeftS>
             </div>
 
             <div>
@@ -50,7 +54,7 @@ export default function Home() {
                 <hr />
                 <ComponentContainerS>
                 <Component1S>
-                    DivRight_left
+                    <ButtonDemo />
                 </Component1S>
                 <Component2S>
                     DivRight_right
