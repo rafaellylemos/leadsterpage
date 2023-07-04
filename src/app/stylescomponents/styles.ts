@@ -85,7 +85,9 @@ export const Component2S = styled.div`
 `;
 export const EndTextS = styled.div`
   background-color: transparent;
-  font-size: 11px;
+  display: flex;
+  gap: 5px;
+  font-size: 10px;
   margin-top: 10px;
 `;
 export const ButtonS = styled.button`
@@ -102,6 +104,9 @@ export const ButtonS = styled.button`
   }
 `;
 
+export const SeloRDS = styled.button`
+  border-radius: 30px;
+`;
 
 
 //Div-Logo

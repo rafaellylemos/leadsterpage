@@ -4,10 +4,12 @@ import ButtonDemo from './components/buttondemo';
 import Cases from './components/cases';
 import Comparativo from './components/comparativo';
 import Contato from './components/contato';
+import EndText from './components/endText';
 import Links from './components/links';
 import LogoBottom from './components/logobottom';
 import LogoTop from './components/logotop';
 import Materiais from './components/materiais';
+import Selo from './components/selo';
 import GlobalStyle from './styles/global';
 import { Component1S, Component2S, ComponentContainerS, DivAdversitingS, DivLogoS, EndTextS, FooterS, LeftS, LogoS, RightS, RightTextS1, RightTextS2, RightTextS3 } from './stylescomponents/styles';
 
@@ -52,17 +54,16 @@ export default function Home() {
                 </RightTextS3>
                 
                 <hr />
+                
                 <ComponentContainerS>
                 <Component1S>
                     <ButtonDemo />
                 </Component1S>
                 <Component2S>
-                    DivRight_right
+                    <Selo />
                 </Component2S>
                 </ComponentContainerS>
-                <EndTextS>
-                  Não é necessário cartão de crédito | 4,9/5 média de satisfação
-                </EndTextS>
+               <EndText />
               </RightS>
               </div>
           </DivAdversitingS>
