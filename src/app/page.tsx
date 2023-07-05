@@ -13,7 +13,7 @@ import Selo from './components/selo';
 import GlobalStyle from './styles/global';
 import Image from 'next/image';
 import assetheader from '../app/imgs/assetheader.png';
-import { MenuButtonRightS, DivMenuButtonsS, ButtonWebnarsS, Call1S, Call2S, Component1S, Component2S, ComponentContainerS, DivAdversitingS, DivLogoS, EndTextS, FooterS, LeftS, LogoS, Principal, RightS, RightTextS1, RightTextS2, RightTextS3, SubtextS, WebnarsS, MenuButtonsS, LeftMenuButtonsS, RightMenuButtonS } from './stylescomponents/styles';
+import { MenuButtonRightS, DivMenuButtonsS, ButtonWebnarsS, Call1S, Call2S, Component1S, Component2S, ComponentContainerS, DivAdversitingS, DivLogoS, EndTextS, FooterS, LeftS, LogoS, Principal, RightS, RightTextS1, RightTextS2, RightTextS3, SubtextS, WebnarsS, MenuButtonsS, LeftMenuButtonsS, RightMenuButtonS, Videos, Video, Pags } from './stylescomponents/styles';
 import OrderButton from './components/orderbybutton';
 
 export default function Home() {
@@ -65,8 +65,21 @@ export default function Home() {
             </RightMenuButtonS>
           </DivMenuButtonsS>
             <hr />
-          {/* Div-Videos */}
-          {/* Div-Pags */}
+          <Videos>
+            <Video>Video1</Video>
+            <Video>Video2</Video>
+            <Video>Video3</Video>
+            <Video>Video4</Video>
+            <Video>Video5</Video>
+            <Video>Video6</Video>
+            <Video>Video7</Video>
+            <Video>Video8</Video>
+            <Video>Video9</Video>
+          </Videos>
+          <hr />
+          <Pags>
+            Página 1 2 3 4
+          </Pags>
         </section>
         <div>
           <DivAdversitingS>

@@ -84,7 +84,7 @@ export const DivMenuButtonsS = styled.div`
   gap: 70px;
   height: 90px;
   align-items: end;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 `;
 export const LeftMenuButtonsS = styled.div`
   display: flex;
@@ -140,10 +140,28 @@ export const ButtonDiv = styled.button`
 
 `;
 
-
-
 //Div-Videos
+export const Videos = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  height: auto;
+`;
+
+export const Video = styled.div`
+  display:flex;
+  justify-content: center;
+`;
+
 //Div-Pags
+export const Pags = styled.div`
+  display:flex;
+  justify-content: center;
+`;
+
 //Div-Adverstising
 export const DivAdversitingS = styled.div`
   display: flex;
