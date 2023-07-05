@@ -11,7 +11,10 @@ import LogoTop from './components/logotop';
 import Materiais from './components/materiais';
 import Selo from './components/selo';
 import GlobalStyle from './styles/global';
-import { Component1S, Component2S, ComponentContainerS, DivAdversitingS, DivLogoS, EndTextS, FooterS, LeftS, LogoS, RightS, RightTextS1, RightTextS2, RightTextS3 } from './stylescomponents/styles';
+import Image from 'next/image';
+import assetheader from '../app/imgs/assetheader.png';
+import { MenuButtonRightS, DivMenuButtonsS, ButtonWebnarsS, Call1S, Call2S, Component1S, Component2S, ComponentContainerS, DivAdversitingS, DivLogoS, EndTextS, FooterS, LeftS, LogoS, Principal, RightS, RightTextS1, RightTextS2, RightTextS3, SubtextS, WebnarsS, MenuButtonsS, LeftMenuButtonsS, RightMenuButtonS } from './stylescomponents/styles';
+import OrderButton from './components/orderbybutton';
 
 export default function Home() {
   return (
@@ -25,11 +28,43 @@ export default function Home() {
         </div>
       </header>
       <main>
+      <Principal>
         <div>
-          <DivAdversitingS />
+          <ButtonWebnarsS>
+            <WebnarsS>
+              Webnars Exclusivos
+            </WebnarsS>
+            </ButtonWebnarsS>
+            <Call1S> 
+              Menos conversinha,
+            </Call1S>
+              <Call2S>
+                Mais conversão
+                <Image src={assetheader} alt="Leadster Page" priority height={30}/>
+              </Call2S>
+            <hr />
+            <SubtextS>
+              Conheça as estratégias que <strong>mudaram o jogo</strong> e como aplicá-las no seu negócio
+            </SubtextS>
         </div>
+      </Principal>
         <section>
-          {/* Div-Buttons */}
+          <DivMenuButtonsS>
+            <LeftMenuButtonsS>
+              <MenuButtonsS>Agências</MenuButtonsS>
+              <MenuButtonsS>Chatbot</MenuButtonsS>
+              <MenuButtonsS>Marketing Digital</MenuButtonsS>
+              <MenuButtonsS>Geração de Leads</MenuButtonsS>
+              <MenuButtonsS>Mídia Paga</MenuButtonsS>
+            </LeftMenuButtonsS>
+            <RightMenuButtonS>
+              <strong>Ordenar por</strong>
+              <MenuButtonRightS>
+                <OrderButton />
+              </MenuButtonRightS>
+            </RightMenuButtonS>
+          </DivMenuButtonsS>
+            <hr />
           {/* Div-Videos */}
           {/* Div-Pags */}
         </section>

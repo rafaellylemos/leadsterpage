@@ -13,7 +13,138 @@ export const LogoS = styled.div`
 `;
 
 //Main
-//Div-Advertising
+//Div-AdvertisingPrincipal
+export const Principal = styled.div`
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  background-color: rgba(30,144,255, 0.1);
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+`;
+
+export const WebnarsS = styled.div`
+  background-color: transparent;
+  font-size: 10px;
+  padding: 2px 15px 2px 15px;
+  justify-items: center;
+  text-transform: uppercase;
+  color: #2c83fb;
+  font-weight: bold;
+`;
+
+export const ButtonWebnarsS = styled.button`
+  background-color: transparent;
+  border: 1px solid #2c83fb;
+  border-radius : 30px 30px 30px 0px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #1f76f0;
+  }
+`;
+
+export const Call1S = styled.div`
+  background-color: rgba(30,144,255, 0.1);
+  font-size: 24px;
+`;
+
+export const Call2S = styled.div`
+  display: flex;
+  background-color: transparent;
+  font-size: 48px;
+  line-height: 0.8;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(-45deg, #2c83fb, #1f76f0);
+  padding-bottom: 10px;
+  font-weight: bold;
+`;
+
+export const SubtextS = styled.div`
+  background-color: rgba(30,144,255, 0.1);
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 79px;
+
+  strong {
+    background-color: transparent;
+  }
+`;
+
+//Div-Buttons
+export const DivMenuButtonsS = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  height: 90px;
+  align-items: end;
+  margin-bottom: 20px;
+`;
+export const LeftMenuButtonsS = styled.div`
+  display: flex;
+  gap: 7px;
+`;
+
+export const RightMenuButtonS = styled.div`
+  display: flex;
+  font-size: 11px;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+`;
+
+export const MenuButtonsS = styled.a`
+  display: flex;
+  background-color: transparent;
+  font-size: 11px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 2px 8px 2px 8px;
+
+  &:hover {
+   border-color: #00A8FF;
+   color: #00A8FF;
+   cursor: default;
+  }
+
+  &:active {
+    background-color: #00A8FF;
+    color: white;
+  }
+
+`;
+
+export const MenuButtonRightS = styled.div`
+  display: flex;
+  background-color: transparent;
+  font-size: 11px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 2px 8px 2px 8px;
+
+`;
+
+//Botão da Div-Buttons
+export const ButtonDiv = styled.button`
+  display: flex;
+  align-items: center;
+  gap: 3px;
+
+`;
+
+
+
+//Div-Videos
+//Div-Pags
+//Div-Adverstising
 export const DivAdversitingS = styled.div`
   display: flex;
   justify-content: center;
@@ -24,10 +155,6 @@ export const DivAdversitingS = styled.div`
   width: 100%;
   height: 300px;
 `;
-
-//Div-Buttons
-//Div-Videos
-//Div-Pags
 //Div-Advertising-Left
 export const LeftS = styled.div`
   display: flex;
@@ -91,7 +218,7 @@ export const EndTextS = styled.div`
   margin-top: 10px;
 `;
 export const ButtonS = styled.button`
-  background-color: #097BF4;
+  background-color: #2c83fb;
   font-size: 11px;
   border-radius: 30px;
   padding: 10px 15px 10px 15px;
@@ -100,7 +227,7 @@ export const ButtonS = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #001969;
+    background-color: #1f76f0;
   }
 `;
 
