@@ -12,7 +12,7 @@ const OrderButton = () => {
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
     setIsOpen(false);
-    // Aqui você pode realizar a ação correspondente à opção selecionada (por exemplo, realizar a ordenação)
+    // Lógica para, por exemplo, ordenar a lista
   };
   return (
     <div>

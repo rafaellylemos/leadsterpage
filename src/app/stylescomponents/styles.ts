@@ -141,7 +141,7 @@ export const ButtonDiv = styled.button`
 `;
 
 //Div-Videos
-export const Videos = styled.div`
+export const VideosS = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
@@ -151,7 +151,7 @@ export const Videos = styled.div`
   height: auto;
 `;
 
-export const Video = styled.div`
+export const VideoS = styled.div`
   display:flex;
   justify-content: center;
 `;
