@@ -4,16 +4,18 @@ import Contato from './contato';
 import Links from './links';
 import LogoBottom from './logobottom';
 import Materiais from './materiais';
-import { DivLogoS, FooterS } from '../stylescomponents/styles';
+import { DivLogoS, FooterS, HiddenS } from '../stylescomponents/styles';
 
 
 export default function Footer() {
     return (
     <><div>
+            <HiddenS>
             <DivLogoS>
                 <LogoBottom />
                 Transformando visitantes em clientes.
             </DivLogoS>
+            </HiddenS>
         </div><footer>
                 <FooterS>
                     <div>

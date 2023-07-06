@@ -1,38 +1,32 @@
 import React from 'react';
 import { VideoS, VideosS } from '../stylescomponents/styles';
-import Thumbnail from './video';
+import Thumbnail from './thumbnail';
 
 
 export default function Videos() {
     return (
     <VideosS>
-        <VideoS>
+        
           <Thumbnail />
-        </VideoS>
-        <VideoS>
+       
+        
           <Thumbnail />
-        </VideoS>
-        <VideoS>
+        
+        
           <Thumbnail />
-        </VideoS>
-        <VideoS>
+        
           <Thumbnail />
-        </VideoS>
-        <VideoS>
+        
           <Thumbnail />
-        </VideoS>
-        <VideoS>
+        
           <Thumbnail />
-        </VideoS>
-        <VideoS>
+        
           <Thumbnail />
-        </VideoS>
-        <VideoS>
+        
           <Thumbnail />
-        </VideoS>
-        <VideoS>
+        
           <Thumbnail />
-        </VideoS>
+    
     </VideosS>
     );
 }

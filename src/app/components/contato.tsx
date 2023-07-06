@@ -1,11 +1,14 @@
-import { CircleS, LinksS, SocialS } from "../stylescomponents/styles";
+import { CircleS, ContatoMobileS, LinksS, SocialS } from "../stylescomponents/styles";
 import IconInstagram from "./icons/IconInstagram";
 import IconLinkedin from "./icons/IconLinkedin";
 import IconSocialFacebook from "./icons/IconSocialFacebook";
 
 export default function Contato() {
     return (
-        <><h1>Siga a Leadster</h1>        
+        <>
+        <ContatoMobileS>
+            <h1>Siga a Leadster</h1>  
+        </ContatoMobileS>      
         <LinksS>
             <div>
                 <SocialS>
