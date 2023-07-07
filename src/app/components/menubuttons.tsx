@@ -5,11 +5,11 @@ import OrderButton from './orderbybutton';
 const MenuButtons = () => {
   const [selectedButton, setSelectedButton] = useState('');
 
-  const handleClick = (buttonName) => {
+  const handleClick = (buttonName:any) => {
     setSelectedButton(buttonName);
   };
 
-  const isButtonSelected = (buttonName) => {
+  const isButtonSelected = (buttonName: string) => {
     return selectedButton === buttonName;
   };
 

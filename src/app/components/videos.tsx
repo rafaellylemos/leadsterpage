@@ -1,5 +1,5 @@
 import React from 'react';
-import { CutS, VideosS } from '../stylescomponents/styles';
+import { VideosS } from '../stylescomponents/styles';
 import Thumbnail from './thumbnail';
 
 

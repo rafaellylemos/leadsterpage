@@ -4,11 +4,11 @@ import { NumS, PagsS } from '../stylescomponents/styles';
 const Pags = () => {
   const [selectedNum, setSelectedNum] = useState('');
 
-  const handleClick = (num) => {
+  const handleClick = (num: React.SetStateAction<string>) => {
     setSelectedNum(num);
   };
 
-  const isNumSelected = (num) => {
+  const isNumSelected = (num: string) => {
     return selectedNum === num;
   };
 

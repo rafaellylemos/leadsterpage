@@ -1,7 +1,7 @@
 'use client';
 
-import { Plus_Jakarta_Sans } from '../styles/fonts/PlusJakartaSans-VariableFont_wght.ttf'
 import { createGlobalStyle } from 'styled-components';
+
 
 export default createGlobalStyle`
 
