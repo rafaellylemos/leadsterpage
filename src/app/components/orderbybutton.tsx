@@ -9,7 +9,7 @@ const OrderButton = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState('Data de Publicação'); 
 
-  const handleOptionSelect = (option) => {
+  const handleOptionSelect = (option: React.SetStateAction<string>) => {
     setSelectedOption(option);
     setIsOpen(false);
     // Lógica para, por exemplo, ordenar a lista
