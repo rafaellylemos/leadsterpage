@@ -22,6 +22,12 @@ export const Principal = styled.div`
   justify-content: center;
   width: 100%;
   padding-top: 80px;
+
+  @media screen and (max-width: 764px) {
+     padding-top: 0;
+     padding-bottom: 20px;
+     margin-bottom: 10px;
+  }
 `;
 
 export const WebnarsS = styled.div`
@@ -32,6 +38,10 @@ export const WebnarsS = styled.div`
   text-transform: uppercase;
   color: #2c83fb;
   font-weight: bold;
+
+  @media screen and (max-width: 764px) {
+     display: none;
+  }
 `;
 
 export const ButtonWebnarsS = styled.button`
@@ -83,7 +93,7 @@ export const SubtextS = styled.div`
   }
 
   @media (max-width: 767px) {
-    width: 280px;
+    display: none;
   }
 `;
 
@@ -241,6 +251,7 @@ export const TextCardS = styled.div`
   border-radius: 10px;
 `;
 
+
 //Div-Pags
 export const PagsS = styled.div`
   display:flex;
@@ -248,11 +259,16 @@ export const PagsS = styled.div`
   gap: 10px;
   margin-top: 30px;
   margin-bottom: 60px;
+  
+  &:hover {
+    cursor: default;
+  }
 `;
 
 export const NumS = styled.div`
   display:flex;
   justify-content: center;
+
 `;
 
 //AdversitingBotton
@@ -269,6 +285,7 @@ export const DivAdversitingS = styled.div`
      gap: 0;
      margin-top: 0;
      height: 260px;
+  }
 
 `;
     //AdvertisingBotton-Left
